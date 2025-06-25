@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>miperfil</class>
+ <widget class="QMainWindow" name="miperfil">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>798</width>
+    <height>616</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>miperfil</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QFrame" name="Frame_PerfilFondo">
+      <property name="styleSheet">
+       <string notr="true">#Frame_PerfilFondo {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                                stop:0 #cde5fa, stop:0.5 #eaf6ff, stop:1 #ffffff);
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Shape::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Shadow::Raised</enum>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2" stretch="1,4">
+       <item>
+        <widget class="QFrame" name="Frame_Titulo">
+         <property name="styleSheet">
+          <string notr="true">#Frame_Titulo {
+    background: transparent;
+    border: none;  /* Opcional: elimina el borde si también lo quieres transparente */
+}
+</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::Shape::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Shadow::Raised</enum>
+         </property>
+         <widget class="QLabel" name="label">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>0</y>
+            <width>101</width>
+            <height>101</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="pixmap">
+           <pixmap>Logo_Windows_Live_Messenger(2).png</pixmap>
+          </property>
+          <property name="scaledContents">
+           <bool>true</bool>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_2">
+          <property name="geometry">
+           <rect>
+            <x>110</x>
+            <y>30</y>
+            <width>371</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Franklin Gothic Book</family>
+            <pointsize>26</pointsize>
+            <italic>true</italic>
+           </font>
+          </property>
+          <property name="text">
+           <string>Windows Live Messenger</string>
+          </property>
+         </widget>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="Frame_FondoPrincipal">
+         <property name="styleSheet">
+          <string notr="true">#Frame_FondoPrincipal {
+    background: transparent;
+    border: none;  /* Opcional: elimina el borde si también lo quieres transparente */
+}
+</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::Shape::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Shadow::Raised</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout" stretch="4,1">
+          <item>
+           <widget class="QFrame" name="Frame_FotoFondo">
+            <property name="styleSheet">
+             <string notr="true">#Frame_FotoFondo {
+    background: transparent;
+    border: none;  /* Opcional: elimina el borde si también lo quieres transparente */
+}
+</string>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::Shape::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Shadow::Raised</enum>
+            </property>
+            <widget class="QLabel" name="label_nombre">
+             <property name="geometry">
+              <rect>
+               <x>220</x>
+               <y>20</y>
+               <width>171</width>
+               <height>16</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Franklin Gothic Book</family>
+               <pointsize>12</pointsize>
+               <italic>true</italic>
+              </font>
+             </property>
+             <property name="text">
+              <string>Bienvenido: Usuario1235</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_imagen">
+             <property name="geometry">
+              <rect>
+               <x>110</x>
+               <y>50</y>
+               <width>391</width>
+               <height>341</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(200, 200, 200);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="Frame_Datos">
+            <property name="styleSheet">
+             <string notr="true">#Frame_Datos {
+    background: transparent;
+    border: none;  /* Opcional: elimina el borde si también lo quieres transparente */
+}
+</string>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::Shape::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Shadow::Raised</enum>
+            </property>
+            <widget class="QLabel" name="label_5">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>380</y>
+               <width>131</width>
+               <height>21</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Terminal</family>
+               <pointsize>9</pointsize>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>PUERTO:</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="Boton_Salir">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>10</y>
+               <width>121</width>
+               <height>24</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Trebuchet MS</family>
+               <pointsize>11</pointsize>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 26, 26);
+color: rgb(255, 255, 255);
+    </string>
+             </property>
+             <property name="text">
+              <string>Salir</string>
+             </property>
+             <property name="icon">
+              <iconset theme="QIcon::ThemeIcon::SystemLogOut"/>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="Boton_RegresarM">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>40</y>
+               <width>121</width>
+               <height>24</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Trebuchet MS</family>
+               <pointsize>11</pointsize>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(0, 0, 255);
+color: rgb(255, 255, 255);</string>
+             </property>
+             <property name="text">
+              <string>Mensajeria</string>
+             </property>
+             <property name="icon">
+              <iconset theme="QIcon::ThemeIcon::MailReplySender"/>
+             </property>
+            </widget>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
